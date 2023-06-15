@@ -15,9 +15,15 @@ function convertValues() {
         currency: "BRL"
     }).format(inputCurrencyValue)
 
-    const valueConverted = document.querySelector(".input-result")
+    const inputResult = document.querySelector(".input-result")
 
-    console.log(valueToConvert)
+    inputResult.innerHTML = new Intl.NumberFormat("en-US", {
+        style: "currency",
+        currency: "USD"
+    }).format(convertionResult)
+
+    const valueConverted = document.querySelector(".input-result")
+    
 }
 
 convertButton.addEventListener("click", convertValues)

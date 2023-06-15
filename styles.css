@@ -106,24 +106,48 @@ section {
     margin-top: 12px;
 }
 
-#arrow {
-    width: 35px;
-    height: 50px;
+#usa-flag {
+    position: absolute;
+    bottom: 58px;
 }
 
-.label-flag {
+#arrow {
+    width: 35px;
+    height: 63px;
+    position: absolute;
+    top: 112px;
+
+}
+
+#label-flag-brazil, .label-flag {
     width: 28px;
     height: 18px;
     font-weight: 400;
     font-size: 14px;
     line-height: 18px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     color: #777777;
+    position: relative;
 }
 
-.input-result-to-convert, .input-result {
+#label-flag {
+    position: relative;
+    top: 155px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-result-to-convert,
+.input-result {
     width: 300px;
     color: black;
     text-align: center;
+}
+
+.input-result {
+    position: relative;
+    top: 155px;
 }
