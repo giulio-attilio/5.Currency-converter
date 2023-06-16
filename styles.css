@@ -7,6 +7,10 @@
 
 body {
     background: #3f9c6e;
+    width: 97vw;
+    height: 100%;
+    position: relative;
+    margin: 0 auto;
 }
 
 #top-logo {
@@ -20,12 +24,10 @@ body {
 }
 
 main {
-    width: 100vw;
     height: 100%;
     display: block;
     position: relative;
     margin: 20px auto 25px;
-    width: 375px;
     height: 712px;
     background: #F4F4F4;
     border-radius: 20px;
