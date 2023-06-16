@@ -153,3 +153,12 @@ section {
     position: relative;
     top: 155px;
 }
+
+#signature{
+    position: absolute;
+    bottom: 8px;
+    left: 152px;
+    font-size: 10px;
+    display: block;
+    font-style: italic;
+}
