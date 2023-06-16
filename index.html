@@ -18,20 +18,20 @@
     <img src="./assets/top-logo.jpeg" alt="top-logo" id="top-logo">
 
     <main>
-        <label for="Real">Converter <b>de</b></label>
-        <select id="">
-            <option value="Real">R$ Real brasileiro</option>
+        <label>Converter <b>de</b></label>
+        <select id="real-brasileiro">
+            <option value="Real">R$ Real</option>
         </select>
 
-        <label for="Dólar">Converter <b>para</b></label>
-        <select id="">
-            <option value="Dólar">US$ Dólar</option>
-            <option value="€ Euro">€ Euro</option>
+        <label>Converter <b>para</b></label>
+        <select id="currency-select">
+            <option value="dolar">US$ Dólar</option>
+            <option value="euro">€ Euro</option>
         </select>
 
         <label>
             Valor
-            <input type="" placeholder="R$ 1,00" class="input-value">
+            <input type="" placeholder="R$ 1,00" id="input-value">
         </label>
 
         <button type="" id="convert-button">Converter</button>
@@ -43,8 +43,8 @@
            
             <img src="./assets/arrow.png" alt="arrow" id="arrow">
            
-            <img src="./assets/usa-flag.png" alt="usa-flag" id="usa-flag">
-            <label for="" id="label-flag">Dólar</label>
+            <img src="./assets/usa-flag.png" alt="usa-flag" id="currency-flag">
+            <label id="label-flag">Dólar</label>
             <p class="input-result" placeholder="">US$ 0.00</p>
         </section>
     </main>
